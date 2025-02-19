@@ -1,0 +1,15 @@
+{
+  "extends": ["config:base"],
+  "packageRules": [
+    {
+      "matchDepTypes": ["dependencies", "devDependencies"],
+      "groupName": "all dependencies",
+      "schedule": ["at 02:00 on Monday"]
+    },
+    {
+      "matchPackageNames": ["@okxweb3/coin-ethereum"],
+      "allowedVersions": "<=1.0.12"
+    }
+  ],
+  "automerge": true
+}

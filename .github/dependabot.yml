@@ -1,0 +1,13 @@
+version: 2
+updates:
+  - package-ecosystem: "npm"
+    directory: "/"  # Root directory
+    schedule:
+      interval: "weekly"
+      time: "02:00"
+    allow:
+      - dependency-type: "direct"
+    groups:
+      all-dependencies:
+        patterns:
+          - "*"
