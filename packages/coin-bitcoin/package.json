@@ -35,6 +35,6 @@
     "@okxweb3/coin-base": "1.0.10",
     "@okxweb3/coin-bitcoin": "^1.0.22",
     "@okxweb3/crypto-lib": "1.0.5",
-    "big-integer": "1.6.36"
+    "big-integer": "1.6.52"
   }
 }
